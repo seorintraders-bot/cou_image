@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+	<title>도매꾹 - 요청하신 페이지를 표시할 수 없습니다.</title>
+	<style type="text/css">
+		html, body
+		{
+			margin				: 0;
+			padding				: 0;
+            width				: 100%;
+            height              : 100%;
+
+		}       
+
+		.dvMain
+		{
+            max-width           : 980px;
+            height              : 100%;
+            margin              : 0 auto;
+            display             : flex;
+            flex-direction      : column;
+            justify-content     : center;
+		}
+
+        .dvMain .mainContent
+        {
+            display             : flex;
+            justify-content     : space-between;
+            align-items         : center;
+        }
+        
+        .dvMain .textContent
+		{
+			display             : flex;
+            flex-direction      : column;
+            gap                 : 60px;
+		}
+
+        .dvMain .textContent img
+        {
+            width               : 180px;
+            height              : 50px;
+            border              : 0;
+        }
+
+        .dvMain .textContent .text h1 
+        {
+            color               : #000;
+            font-family         : Pretendard;
+            font-size           : 34px;
+            font-style          : normal;
+            font-weight         : 700;
+            line-height         : normal;
+        }
+
+        .dvMain .textContent .text .subText
+        {
+            display             : flex;
+            flex-direction      : column;
+            gap                 : 9px;             
+            color               : #000;
+            font-family         : Pretendard;
+            font-size           : 24px;
+            font-style          : normal;
+            font-weight         : 400;
+            line-height         : normal;     
+        }
+
+        .dvMain .textContent .dvBtn
+        {
+            display             : flex;
+            flex-direction      : column;
+            justify-content     : center;
+            width               : 330px;
+            height              : 45px;
+            border-radius       : 6px;
+            border              : 1px #00B336;
+            background          : #00B336;
+            text-align          : center;
+            font-family         : Helvetica;
+            font-size           : 28px;
+            font-style          : normal;
+            font-weight         : 700;
+            line-height         : normal;
+            letter-spacing      : 1px;
+            color               : #FFF;
+            margin-top          : 30px;
+            padding             : 9px 0;
+        }
+
+        .dvMain .imageContent img
+        {
+            width               : 250px;
+            height              : 250px;
+            border              : 0;
+        }
+
+        @media screen and (max-width: 768px) {
+            .dvMain .mainContent
+            {
+                flex-direction  : column-reverse;
+                text-align      : center;
+                gap             : 70px;     
+                padding         : 0 15px;  
+            }
+
+            .dvMain .mainContent .textContent
+            {
+                align-items     : center;
+            }
+
+            .dvMain .textContent
+            {
+                gap             : 50px;
+            }
+
+            .dvMain .textContent img
+            {
+                width           : 120px;
+                height          : 35px;
+            }
+
+            .dvMain .textContent .text h1 
+            {
+                font-size       : 25px;
+            }
+
+            .dvMain .textContent .text .subText
+            {       
+                gap             : 12px;   
+                font-size       : 16px;
+            }
+
+            .dvMain .imageContent img
+            {
+                width               : 210px;
+                height              : 210px;
+            }
+
+            .dvMain .textContent .dvBtn
+            {
+
+                width           : 270px;
+                font-size       : 20px;
+                padding         : 3px 0;
+            }
+        }
+
+        @media screen and (max-width: 768px) and (max-height: 700px) {
+            .dvMain .mainContent
+            {
+                gap             : 30px;     
+            }
+
+            .dvMain .textContent
+            {
+                gap             : 30px;
+            }
+
+            .dvMain .imageContent img
+            {
+                width           : 180px;
+                height          : 180px;
+            }
+        }
+
+
+	</style>
+    <script>
+        function goHome()
+        {
+            if(window.innerWidth > 768) {
+                window.location.replace("https://domeggook.com");
+            } else {
+                window.location.replace("https://mobile.domeggook.com");
+            }
+        }
+
+    </script>
+</head>
+<body>
+	<div class='dvMain'>
+        <div class="mainContent">
+            <div class="textContent">
+                <img src='https://cdn1.domeggook.com/image/common/img_domeggookLogo2.png'/>
+                <div class="text">
+                    <h1>페이지를 찾을 수 없습니다.</h1>
+    
+                    <div class="subText">
+                        <div>요청한 페이지는 없는 페이지 이거나 접근이 제한된 페이지입니다.</div>
+                        <div>입력한 URL을 다시 확인해 주세요.</div>
+                    </div>
+                </div>
+                <a onclick="goHome()" class="dvBtn">홈으로 이동하기</a>
+            </div>
+            <div class="imageContent">
+                <img src='https://cdn1.domeggook.com/image/common/error/403_404_error.png'/>
+            </div>
+        </div>
+	</div>
+</body>
+</html>
