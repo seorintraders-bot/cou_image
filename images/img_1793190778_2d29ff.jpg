@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>위사 :: 꿈꾸는세상 - www.wisa.co.kr</title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<style type="text/css" title="">
+#cdn_finish {width:100%; text-align:center;}
+#cdn_finish #content {padding:100px 0 60px;}
+#cdn_finish #footer {height:210px; padding-top:65px; background:#26ace2;}
+#cdn_finish #footer strong {display:block; width:368px; height:48px; margin:0 auto; border:solid 1px #a8def3; border-radius:3px; font-size:12px; color:#fff; line-height:46px;}
+#cdn_finish #footer span {display:block; padding:55px 0 10px;}
+#cdn_finish #footer address {font-size:11px; color:#85d0ef; line-height:18px; font-style:normal;}
+</style>
+</head>
+<body>
+	<div id="cdn_finish">
+		<div id="content">
+			<img src="http://wisa.adm.infralab.net/image/content/finish.jpg" alt="감사합니다. 더 나은 서비스를 위해 노력하겠습니다.">
+		</div>
+		<div id="footer">
+			<strong>서비스 중지 상태입니다. 서비스 확인 바랍니다.</strong>
+			<span><img src="http://wisa.adm.infralab.net/image/logo/wisa.png" alt="WISA"></span>
+			<address>
+				서울 강남구 논현동 268-17 윙갤러리빌딩<br>
+				문의 EMAIL.<a href="mailto:hosting@wisa.co.kr" style="color:#fff">hosting@wisa.co.kr</a> TEL.070-7405-0321,1454
+			</address>
+		</div>
+	</div>
+</body>
+</html>
